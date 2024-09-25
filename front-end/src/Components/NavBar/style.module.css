@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: #03698a;
+    padding: 7px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ulNav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+.ulNav li{
+    padding:0 10px;
+
+}
+.ulNav li>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ulNav li:hover a{
+color: #fff;
+}
+.ulNav li>a.active{
+    text-decoration: underline;
+    color:#fff;
+}
+.search{
+    background-color:#ffffffde;
+}

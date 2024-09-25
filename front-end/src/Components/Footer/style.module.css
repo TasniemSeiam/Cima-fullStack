@@ -1,0 +1,10 @@
+.active{
+   color: #eee;
+    background-color: #03698a;
+    pointer-events: none;
+}
+.notActive{
+color: #03698a;
+background-color: transparent;
+pointer-events: all;
+}
